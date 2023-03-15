@@ -46,9 +46,9 @@ scores = sia.polarity_scores(review_list[0])
 
 sentiments_score = [scores['neg'],scores['neu'],scores['pos']]
 
-negative = Image.open('F:\Simple_projects\Data Analysis Projects\disappointed-face_1f61e.png')
-neutral = Image.open('F:\\Simple_projects\\Data Analysis Projects\\neutral-face_1f610.png')
-positive = Image.open('F:\Simple_projects\Data Analysis Projects\winking-face_1f609.png')
+negative = Image.open('disappointed.png')
+neutral = Image.open('neutral.png')
+positive = Image.open('winking.png')
 
 st.header("😶Sentiment")
 st.markdown("""---""")

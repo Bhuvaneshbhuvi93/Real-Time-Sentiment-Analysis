@@ -15,4 +15,4 @@ def show_pdf(file_path):
     st.markdown(pdf_display, unsafe_allow_html=True)
 
 
-show_pdf('F:\Simple_projects\Data Analysis Projects\Real Time Sentiment Analysis.pdf')
+show_pdf('Real Time Sentiment Analysis.pdf')
