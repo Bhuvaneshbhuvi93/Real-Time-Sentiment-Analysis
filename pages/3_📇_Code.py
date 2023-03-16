@@ -20,9 +20,8 @@ sia = SentimentIntensityAnalyzer()
 score = sia.polarity_scores(user_review)
 print(score)'''
 
-st.write("{'neg': 1.0, 'neu': 0.0, 'pos': 0.0, 'compound': -0.5423}")
-
 st.code(code, language='python')
+st.write("{'neg': 1.0, 'neu': 0.0, 'pos': 0.0, 'compound': -0.5423}")
 
 st.subheader("Final Prediction")
 code = '''user_review = input('Please Rate Our Service: ')
@@ -36,6 +35,5 @@ print('Positive')
 else:
 print('Neutral')'''
 
-st.write("Neutral")
-
 st.code(code, language='python')
+st.write("Neutral")
